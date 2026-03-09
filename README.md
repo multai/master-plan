@@ -49,11 +49,18 @@ Every creature runs its own agent loop, making decisions based on its personalit
 
 ## Documentation
 
+### Core Systems
 - [Architecture](docs/ARCHITECTURE.md) — System design, database schema, mind pooling
-- [Creatures](docs/CREATURES.md) — Creature drives, species catalog, relationships
 - [Entity System](docs/ENTITY-SYSTEM.md) — The AI brain: tick loop, actions, LLM integration
+- [Player System](docs/PLAYER-SYSTEM.md) — Permadeath, safe zones, character lifecycle
+
+### World Building
+- [Cosmic Scale](docs/COSMIC-SCALE.md) — Galaxies, technology levels, universal scope
+- [Universe Structures](docs/UNIVERSE-STRUCTURES.md) — Governments, religions, economics
+- [Creatures](docs/CREATURES.md) — Species catalog, drives, relationships
+
+### Narrative
 - [Plots System](docs/PLOTS-SYSTEM.md) — Storylines, quests, and narrative engine
-- [Universe Structures](docs/UNIVERSE-STRUCTURES.md) — Governments, religions, economics, social classes
 
 ---
 
