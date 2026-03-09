@@ -39,10 +39,11 @@ Every creature runs its own agent loop, making decisions based on its personalit
 | Repository | Purpose | Status |
 |------------|---------|--------|
 | `master-plan` | Documentation, vision, and roadmap | ✅ |
-| `database` | Hybrid DB: PostgreSQL (entities) + Convex (players) | ✅ |
-| `entity` | Creature AI engine (pi-agent) — the "mind" | 📋 Planned |
+| `database` | Hybrid DB: PostgreSQL + Convex | ✅ |
+| `entity` | The mind — pi-agent wrapper, actions, memory | ✅ |
+| `global-engine` | Deterministic tick for ALL creatures (no LLM) | ✅ |
+| `entity-engine` | LLM-powered tick for focused entities | ✅ |
 | `plots` | Storylines, quests, narrative engine | 📋 Planned |
-| `engine` | Universe orchestrator, tick loop | 📋 Planned |
 | `worlds` | World/species/government definitions | 📋 Planned |
 
 ---
@@ -51,6 +52,7 @@ Every creature runs its own agent loop, making decisions based on its personalit
 
 ### Core Systems
 - [Architecture](docs/ARCHITECTURE.md) — System design, database schema, mind pooling
+- [Engine Architecture](docs/ENGINE-ARCHITECTURE.md) — Two-tier processing: Global + Entity engines
 - [Entity System](docs/ENTITY-SYSTEM.md) — The AI brain: tick loop, actions, LLM integration
 - [Player System](docs/PLAYER-SYSTEM.md) — Permadeath, safe zones, character lifecycle
 
