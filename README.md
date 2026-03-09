@@ -39,10 +39,10 @@ Every creature runs its own agent loop, making decisions based on its personalit
 | Repository | Purpose | Status |
 |------------|---------|--------|
 | `master-plan` | Documentation, vision, and roadmap | ✅ |
+| `database` | Hybrid DB: PostgreSQL (entities) + Convex (players) | ✅ |
 | `entity` | Creature AI engine (pi-agent) — the "mind" | 📋 Planned |
 | `plots` | Storylines, quests, narrative engine | 📋 Planned |
 | `engine` | Universe orchestrator, tick loop | 📋 Planned |
-| `database` | Schema & migrations | 📋 Planned |
 | `worlds` | World/species/government definitions | 📋 Planned |
 
 ---
