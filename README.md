@@ -39,10 +39,11 @@ Every creature runs its own agent loop, making decisions based on its personalit
 | Repository | Purpose | Status |
 |------------|---------|--------|
 | `master-plan` | Documentation, vision, and roadmap | ✅ |
-| `mind` | Creature AI engine (pi-agent) | 📋 Planned |
-| `engine` | Game orchestrator | 📋 Planned |
+| `entity` | Creature AI engine (pi-agent) — the "mind" | 📋 Planned |
+| `plots` | Storylines, quests, narrative engine | 📋 Planned |
+| `engine` | Universe orchestrator, tick loop | 📋 Planned |
 | `database` | Schema & migrations | 📋 Planned |
-| `worlds` | World/species definitions | 📋 Planned |
+| `worlds` | World/species/government definitions | 📋 Planned |
 
 ---
 
@@ -51,6 +52,8 @@ Every creature runs its own agent loop, making decisions based on its personalit
 - [Architecture](docs/ARCHITECTURE.md) — System design, database schema, mind pooling
 - [Creatures](docs/CREATURES.md) — Creature drives, species catalog, relationships
 - [Entity System](docs/ENTITY-SYSTEM.md) — The AI brain: tick loop, actions, LLM integration
+- [Plots System](docs/PLOTS-SYSTEM.md) — Storylines, quests, and narrative engine
+- [Universe Structures](docs/UNIVERSE-STRUCTURES.md) — Governments, religions, economics, social classes
 
 ---
 
