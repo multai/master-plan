@@ -36,10 +36,20 @@ Every creature runs its own agent loop, making decisions based on its personalit
 
 ### Repositories
 
-| Repository | Purpose |
-|------------|---------|
-| `master-plan` | Documentation, vision, and roadmap |
-| `mind` | *(planned)* The AI brain/personality engine for creatures |
+| Repository | Purpose | Status |
+|------------|---------|--------|
+| `master-plan` | Documentation, vision, and roadmap | ✅ |
+| `mind` | Creature AI engine (pi-agent) | 📋 Planned |
+| `engine` | Game orchestrator | 📋 Planned |
+| `database` | Schema & migrations | 📋 Planned |
+| `worlds` | World/species definitions | 📋 Planned |
+
+---
+
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md) — System design and components
+- [Creatures](docs/CREATURES.md) — Creature system, drives, and database schema
 
 ---
 
