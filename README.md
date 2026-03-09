@@ -48,8 +48,9 @@ Every creature runs its own agent loop, making decisions based on its personalit
 
 ## Documentation
 
-- [Architecture](docs/ARCHITECTURE.md) — System design and components
-- [Creatures](docs/CREATURES.md) — Creature system, drives, and database schema
+- [Architecture](docs/ARCHITECTURE.md) — System design, database schema, mind pooling
+- [Creatures](docs/CREATURES.md) — Creature drives, species catalog, relationships
+- [Entity System](docs/ENTITY-SYSTEM.md) — The AI brain: tick loop, actions, LLM integration
 
 ---
 
