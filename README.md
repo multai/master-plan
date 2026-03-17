@@ -43,8 +43,11 @@ Every creature runs its own agent loop, making decisions based on its personalit
 | `entity` | The mind — pi-agent wrapper, actions, memory | ✅ |
 | `global-engine` | Deterministic tick for ALL creatures (no LLM) | ✅ |
 | `entity-engine` | LLM-powered tick for focused entities | ✅ |
+| `user-frontend` | Next.js player interface | ✅ |
+| `worlds` | World/species/government definitions | ✅ |
+| `plot-orchestrator` | Container lifecycle, Traefik routing, API | ✅ New |
+| `plot-service` | WebSocket server, narrator, scene management | 📋 Next |
 | `plots` | Storylines, quests, narrative engine | 📋 Planned |
-| `worlds` | World/species/government definitions | 📋 Planned |
 
 ---
 
@@ -63,6 +66,10 @@ Every creature runs its own agent loop, making decisions based on its personalit
 
 ### Narrative
 - [Plots System](docs/PLOTS-SYSTEM.md) — Storylines, quests, and narrative engine
+- [Narrator](docs/NARRATOR.md) — The invisible Game Master entity
+
+### Infrastructure
+- [Plot Service](docs/PLOT-SERVICE.md) — WebSocket server, real-time gameplay, Traefik routing
 
 ---
 
